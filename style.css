@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+
+
+body{
+    background-color: hsl(30, 54%, 90%);
+    margin: 0px;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerbox{
+    background-color: hsl(0, 0%, 100%);
+    padding: 5px;
+    margin: 100px;
+    border-radius: 20px;
+    width: 40%;
+}
+
+.img-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container img{
+    width: 90%;
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+}
+
+.recipe-container{
+    margin-left: 40px;
+    margin-bottom: 0px;
+}
+
+.recipe-container h1{
+    font-weight: 400;
+    font-family: "Young Serif", serif;
+    color: hsl(24, 5%, 18%);
+}
+
+.recipe-container p{
+    font-weight: 400;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    margin-right: 50px;
+    color: hsl(30, 10%, 34%);
+   
+}
+
+.prep-container{
+    background-color: hsla(271, 93%, 73%, 0.062);
+    border-radius: 10px;
+    padding: 5px 10px;
+    width: 86%;
+    max-width: 87%;
+    margin-left: 40px;
+}
+
+.prep-container h3{
+    color: hsl(332, 51%, 32%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    padding: 0px 10px;
+    
+}
+
+
+.prep-container li{
+    padding: 5px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    
+    color: hsl(30, 10%, 34%);
+}
+
+.prep-container li::marker{
+    color: hsl(332, 51%, 32%);
+    font-size: 15px;
+}
+
+.ingred{
+    margin-left: 40px;
+    margin-right: 40px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.ingred h2{
+    font-family: "Young Serif", serif;
+    font-weight: 500;
+    color: hsl(14, 45%, 36%);
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.ingred li {
+    padding: 5px 10px;
+
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+}
+
+.ingred li::marker{
+    color: hsl(14, 45%, 36%);
+    font-size: 15px;
+}
+
+
+
+.instructions{
+    margin-left: 40px;
+    margin-right: 40px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.instructions h2{
+    font-family: "Young Serif", serif;
+    font-weight: 500;
+    color: hsl(14, 45%, 36%);
+    margin-left: 10px;
+    margin-right: 10px
+}
+
+.instructions li{
+    padding: 5px 10px;
+
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    color: hsl(30, 10%, 34%);
+}
+
+.instructions li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+
+.table-container {
+    margin-left: 40px;
+    margin-right: 40px;
+    
+    padding: 0 15px;
+}
+
+.table-container h2 {
+    font-family: "Young Serif", serif;
+    font-weight: 500;
+    color: hsl(14, 45%, 36%);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.table-container p {
+    padding: 0px 5px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+}
+
+.table-container table {
+    width: 100%; 
+    font-size: 17px;    
+    border-collapse: separate; 
+    border-spacing: 0;
+}
+
+.table-container tr {
+    padding: 0px 5px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+}
+
+.table-container th {
+    padding: 5px 5px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    text-align: left;
+}
+
+.table-container td {
+    padding: 10px 0; 
+    padding-left: 10rem; 
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
+}
+
+
+
+.table-container tr:nth-child(1) td,
+.table-container tr:nth-child(1) th,
+.table-container tr:nth-child(2) td,
+.table-container tr:nth-child(2) th,
+.table-container tr:nth-child(3) td,
+.table-container tr:nth-child(3) th {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+
+.table-container tr:nth-child(4) td,
+.table-container tr:nth-child(4) th {
+    border-bottom: none;
+}
+
+@media (max-width: 768px){
+    .containerbox{
+        padding: 0px;
+        margin: 0px;
+        border-radius: 0px;
+        width: 100%;
+    }
+    .img-container img{
+        width: 100%;
+        max-width: 100%;
+        border-radius: 0px;
+        margin-top: 0px;
+        
+    }
+
+    .prep-container{
+        padding: 5px 5px;
+        width: 80%;
+        max-width: 87%;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+
+    .table-container {
+        margin-bottom: 80px;
+        
+        padding: 0 15px;
+    }
+    body{
+        background-color: white;
+        margin: 0px;
+        padding: 0px;
+    }
+}
