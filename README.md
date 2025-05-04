@@ -23,9 +23,11 @@ A clean, responsive recipe page built with semantic HTML5 and modular CSS. Desig
 
 ## 📸 Screenshot
 
-![Recipe Page Screenshot](./screenshot.png) <!-- Replace with actual screenshot path -->
 
----
+![Screenshot (159)](https://github.com/user-attachments/assets/35257a0f-c732-4345-bb1e-7dd619512dda)
+---![Screenshot (160)](https://github.com/user-attachments/assets/9b62f39a-3e07-4133-9c48-208c5d262e3b)
+
+
 
 ## 🛠️ Built With
 
@@ -49,7 +51,7 @@ A clean, responsive recipe page built with semantic HTML5 and modular CSS. Desig
 
 ## 🔗 Live Site
 
-👉 [View Live](https://your-live-site-url.com) <!-- Replace this with your actual live site link -->
+👉 [View Live](https://tourniquettears.github.io/Frontend-Mentor-Recipe-page/)
 
 ---
 
